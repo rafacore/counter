@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App.js';
-import Counter from './components/Counter.js';
+import Counters from './components/Counters.js';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.css"
 //import Counter from './components/Counter'
 //import Counter from './Counter'
 
-ReactDOM.render(<Counter />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
